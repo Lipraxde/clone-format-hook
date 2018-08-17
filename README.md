@@ -1,5 +1,6 @@
 # Introduction
-clone-format hook for git repository
+
+This hook can force programmers to keep consistent programming style specified by .clang-format
 
 The pre-commit comes from **References [1]** and git-clang-format is
 the same as **References [2]**

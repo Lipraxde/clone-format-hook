@@ -1,2 +1,35 @@
-# clone-format-hook
+# Introduction
 clone-format hook for git repository
+
+The pre-commit comes from **References [1]** and git-clang-format is
+the same as **References [2]**
+
+# Installation
+
+You need to put .clang-format in the root directory of your git repository
+
+You can download the .clang-format sample file
+
+```bash=
+$ wget https://github.com/Jim00000/clone-format-hook/blob/master/.clang-format
+```
+
+And then install the pre-commit and git-clang-format into the .git/hooks/ directory
+
+```
+$ wget https://github.com/Jim00000/clone-format-hook/blob/master/hooks/pre-commit -O .git/hooks/pre-commit
+$ wget https://github.com/Jim00000/clone-format-hook/blob/master/hooks/git-clang-format -O .git/hooks/git-clang-format
+```
+
+In the last, change their permissions to be executable
+
+```bash=
+$ chmod u+x .git/hooks/pre-commit
+$ chmod u+x .git/hooks/git-clang-format
+```
+
+
+# References
+
+- [[1] pre-commit](https://gist.github.com/alexeagle/c8ed91b14a407342d9a8e112b5ac7dab)
+- [[2] git-clang-format](https://raw.githubusercontent.com/llvm-mirror/clang/master/tools/clang-format/git-clang-format)

@@ -18,8 +18,8 @@ $ wget https://raw.githubusercontent.com/Jim00000/clone-format-hook/master/.clan
 And then install the pre-commit and git-clang-format into the .git/hooks/ directory
 
 ```
-$ wget https://raw.githubusercontent.com/Jim00000/clone-format-hook/master/hooks/git-clang-format -O .git/hooks/pre-commit
-$ wget https://raw.githubusercontent.com/Jim00000/clone-format-hook/master/hooks/pre-commit -O .git/hooks/git-clang-format
+$ wget https://raw.githubusercontent.com/Jim00000/clone-format-hook/master/hooks/git-clang-format -O .git/hooks/git-clang-format
+$ wget https://raw.githubusercontent.com/Jim00000/clone-format-hook/master/hooks/pre-commit -O .git/hooks/pre-commit
 ```
 
 In the last, change their permissions to be executable
